@@ -8,7 +8,6 @@
     <meta name="MobileOptimized" content="320">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="referrer" content="no-referrer">
-    <meta name="author" content="{{Site.Params.author}}"
     <!-- Character max 160-->
     <meta name="description" content="{{.Site.Params.description | default "Selected works by Zhiyao Chen"}}">
     <!-- Card value “summary”, “summary_large_image”, “app”, or “player”-->
@@ -17,7 +16,7 @@
     <!-- Min 120x120px-->
     <meta name="twitter:image" content="{{ .Site.Params.primaryImage | default "icon-large.jpg" | absURL }}">
     <meta name="twitter:title" property="og:title" itemprop="title name" content="{{.Site.Title | default "Zhiyao Chen"}}">
-    <meta name="twitter:description" property="og:description" itemprop="description" content="{{.Site.Params.description | default "Call me Sam, a theme for Hugo."}}">
+    <meta name="twitter:description" property="og:description" itemprop="description" content="{{.Site.Params.description | default "Selected works by Zhiyao Chen"}}">
     <meta name="og:type" content="website">
     <meta name="og:url" content="{{.Site.BaseURL}}">
     <meta name="og:image" itemprop="image primaryImageOfPage" content="{{.Site.Params.primaryImage | default "icon-large.jpg" | absURL}}">
@@ -30,8 +29,8 @@
     <!-- jQuery-->
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
         crossorigin="anonymous"></script>
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-        {{ if .Site.GoogleAnalytics }}
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    {{ if .Site.GoogleAnalytics }}
     <script async src="https://www.googletagmanager.com/gtag/js?id={{.Site.GoogleAnalytics}}"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
@@ -41,6 +40,7 @@
         gtag('config', '{{.Site.GoogleAnalytics}}');
     </script>
     {{ end }}
+
 </head>
 
 </html>
