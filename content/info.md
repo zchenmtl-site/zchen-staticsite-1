@@ -9,3 +9,4 @@ He collaborates closely with clients to convey the unique features of each proje
 His visual products and experiments, through stills, animations, prints, web and social media, result in positive sales campaigns and project approvals.
 <br><br>
 If you have compelling ideas, spaces or products to showcase, please get in touch.
+<br><br><br><br>
