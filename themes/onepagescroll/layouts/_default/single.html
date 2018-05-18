@@ -1,0 +1,12 @@
+{{ partial "head.html" . }}<body>
+<div class="overlay-bottom">
+        <h1>—<br>{{ if .Site.Params.siteMenu }}{{ range .Site.Params.siteMenu }}<a href="{{ .link }}">{{ .text }}</a><br>{{ end }}{{ end }}</h1>
+</div>
+<div class="text-standard">
+    <h1><a href="{{.Site.BaseURL}}">{{ .Site.Title }}</a><br>—
+        <br><br>
+        {{ .Content }}
+        <br><br>
+    </h1>
+</div>
+</body>

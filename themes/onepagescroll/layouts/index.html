@@ -1,0 +1,28 @@
+{{ partial "head.html" . }}<body>
+<div class="overlay-top">
+    <h1><a href="{{.Site.BaseURL}}">{{ .Site.Title }}</a><br>
+    —</h1>
+</div>
+<div class="overlay-bottom">
+        <h1>—<br>{{ if .Site.Params.siteMenu }}{{ range .Site.Params.siteMenu }}<a href="{{ .link }}">{{ .text }}</a><br>{{ end }}{{ end }}</h1>
+</div>
+
+</div>
+<div class="wrap">
+    <h1>Bespoke real estate marketing <br>and architectural representation <br>for developers, brokers, <br>designers and architects.<br><br></h1>
+<div class="grid">
+{{ $name := .Site.Params.galleryFolder | default "images/"}}
+{{ $path := "gallery/" }}
+{{ $content := "/content/" }}
+{{ $src := (print $path $name) }}
+
+{{ $folder := (print $content $path $name) }}
+
+{{ $files := readDir $folder }}
+
+{{ range shuffle $files }}
+<div><img src="{{ $src | absURL }}{{.Name }}"/></div>{{ end }}</div>
+
+<div class="section bottom-menu"></p><p><a href="{{.Site.BaseURL}}">{{ .Site.Params.homepage }}</a></p><hr/></div>
+
+<div class="section footer">{{ partial "footer.html" . }}</div></div></body>

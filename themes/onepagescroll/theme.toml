@@ -1,0 +1,12 @@
+name = "Zhiyao One Page gallery"
+license = "Creative Commons Attribution 3.0 Unported"
+licenselink = "https://github.com/zchenmtl-site/zchen-staticsite-1/blob/master/LICENSE.txt"
+description = "Simple one page image gallery."
+homepage = "https://github.com/zchenmtl-site/zchen-staticsite-1"
+tags = ["zhiyao", "chen", "zchen", "one", "page", "gallery", "portfolio"]
+features = ["responsive", "gallery"]
+min_version = "0.30"
+
+[author]
+  name = "Zhiyao Chen"
+  homepage = "https://zhiyaochen.com"
