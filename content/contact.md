@@ -13,5 +13,5 @@ draft: false
 Let's talk :) <br><br>
 —<br>
 We are currently fully booked for the summer 2018 period;
-if you have inquiries for timeslots in fall/winter, please let us know.
+if you have inquiries for fall/winter, please let us know.
 <br><br><br><br>
