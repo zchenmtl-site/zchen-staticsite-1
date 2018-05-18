@@ -1,2 +1,0 @@
-# Redirect domain aliases to primary domain
-http://zchen.ca/* http://zhiyaochen.com/:splat 301!
