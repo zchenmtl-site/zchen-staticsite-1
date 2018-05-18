@@ -1,3 +1,4 @@
 # Redirect domain aliases to primary domain
 https://zchen.ca/* https://zhiyaochen.com/:splat 301!
 http://zchen.ca/* http://zhiyaochen.com/:splat 301!
+www.zchen.ca/* https://zhiyaochen.com/:splat 301!
