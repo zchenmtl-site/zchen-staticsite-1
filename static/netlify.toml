@@ -1,8 +1,2 @@
 [context.production.environment]
   HUGO_VERSION = "0.32"
-
-[[redirects]]
-  from = "https://zchen.ca/*"
-  to = "https://zhiyaochen.com/"
-  status = 301
-  force = true # Ensure that we always redirect
