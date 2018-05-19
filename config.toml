@@ -16,9 +16,9 @@ googleAnalytics       = "UA-119521709-1"             # Tracking code, eg. "UA-11
 
 # Metadata
     author              = "Zhiyao Chen"
-    description         = "Zhiyao Chen provides bespoke real estate and architectural marketing for developers and architects through authentic renderings, branding & graphic design."        # Max 160 characters show in search results
-    twitterCard         = "summary_large_image"         # Card value “summary”, “summary_large_image”, “app”, or “player”
-    primaryImage        = "icon-large.jpg"              # Image that shows on Twitter cards and OpenGraph links
+    description         = "Zhiyao Chen provides bespoke real estate and architectural marketing for developers and architects through authentic renderings, branding & visual design."        # Max 160 characters show in search results
+    twitterCard         = "Selected works"         # Card value “summary”, “summary_large_image”, “app”, or “player”
+    primaryImage        = "thumbnail-1.jpg"              # Image that shows on Twitter cards and OpenGraph links
 
 [[params.siteMenu]]
     link = "/info"
