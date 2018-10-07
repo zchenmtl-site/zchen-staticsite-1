@@ -21,10 +21,6 @@ googleAnalytics       = "UA-119521709-1"             # Tracking code, eg. "UA-11
     primaryImage        = "thumbnail-1.jpg"              # Image that shows on Twitter cards and OpenGraph links
 
 [[params.siteMenu]]
-    link = "/info"
-    text = "info"
-
-[[params.siteMenu]]
     link = "/contact"
     text = "contact"
     
