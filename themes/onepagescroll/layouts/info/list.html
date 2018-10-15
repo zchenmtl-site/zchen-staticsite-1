@@ -1,0 +1,37 @@
+{{ partial "head.html" . }}
+<body>
+    {{ partial "header.html" . }}
+    <main class="info">
+        <div class="info__inner wrapper">
+            <div class="info__section">
+                <h1 class="info__title">
+                    {{ .Content }}
+                    —
+                </h1>
+            </div>
+            <div class="info__section">
+                <div class="info__contact">
+                    <p>Contact</p>
+                    <h1 class="info__title">
+                        <a class="footer__link" href="mailto:hello@zhiyaochen.com">hello@zhiyaochen.com</a>
+                    </h1>
+                    
+                </div>
+                <div class="info__contact">
+                    <p>Social</p>
+                    <ul><h1 class="info__title">
+                        <li>
+                            <a class="footer__link" href="https://www.instagram.com/zchenmtl" target="_blank">Instagram</a>
+                        </li>
+                        <li>
+                            <a class="footer__link" href="https://www.linkedin.com/in/zchenmtl/" target="_blank">LinkedIn</a>
+                        </li>
+                        <li>
+                                <a class="footer__link" href="https://www.facebook.com/zchenmtl" target="_blank">Facebook</a>
+                        </li>
+                    </h1></ul>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
