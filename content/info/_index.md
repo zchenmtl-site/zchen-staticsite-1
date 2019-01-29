@@ -6,7 +6,7 @@ showDate: false
 ---
 &nbsp;
 
-Generating enthusiasm for the built environment and innovative products through bespoke visuals and marketing content.
+Bespoke visual content for the built environment and design products.
 
 &nbsp;
 
