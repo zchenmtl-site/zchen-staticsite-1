@@ -6,7 +6,7 @@ showDate: false
 ---
 &nbsp;
 
-Full website coming soon.
+Generating enthusiasm for the built environment and innovative products through bespoke visuals and marketing content.
 
 &nbsp;
 
