@@ -130,7 +130,7 @@ a:hover {
 #slideshow > div > img {
   height: 100%;
   object-fit: cover;
-  object-position: 80% 80%
+  object-position: 50% 85%
 }
 
 /* header */
