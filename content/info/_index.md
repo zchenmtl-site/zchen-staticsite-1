@@ -6,7 +6,7 @@ showDate: false
 ---
 &nbsp;
 
-Bespoke visual content for the built environment and design products — please contact for more info.
+Bespoke visual content for the built environment and related products — please contact for more info.
 Full website coming soon.
 
 &nbsp;
