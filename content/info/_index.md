@@ -8,10 +8,7 @@ showDate: false
 
 Bespoke 3D visuals for the built environment and related products.
 
-&nbsp;
-
 Full website coming soon.
-
 
 
 &nbsp;
