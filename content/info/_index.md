@@ -6,9 +6,7 @@ showDate: false
 ---
 &nbsp;
 
-Bespoke marketing content for the built environment and related products.
-
-3D — graphics — photography — web
+Bespoke 3D visuals for the built environment and related products.
 
 &nbsp;
 
