@@ -201,6 +201,10 @@ a:hover {
    text-decoration: none;
 }
 
+.header__link > img {
+  max-width: 85px
+}
+
 /* body */
 
 .overlay-top {
