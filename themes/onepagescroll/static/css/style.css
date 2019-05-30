@@ -5,6 +5,7 @@
   padding: 0;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
+
 }
 
 html {
@@ -51,6 +52,11 @@ a {
 a:hover {
   color: #0000ff;
   font-style: none;
+}
+
+::selection {
+	color: black;
+  background: cyan
 }
 
 /* homepage slideshow */
